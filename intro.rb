@@ -8,7 +8,7 @@ puts "X1: #{x1}, X2: #{x2}"
 
 begin
   puts "devision result: #{x1 / x2}"
-rescue StandardError
+rescue ZeroDivisionError
   puts 'PLEASE DO NOT DEVIDE BY ZERO!!!'
 end
 
