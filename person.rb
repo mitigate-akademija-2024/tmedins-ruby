@@ -2,7 +2,7 @@ require './mamal'
 
 module Swiming
   def swim
-    puts 'SWIM!'
+    puts 'SWIM!!!!'
   end
 end
 
