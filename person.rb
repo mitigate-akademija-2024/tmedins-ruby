@@ -2,7 +2,7 @@ require './mamal'
 
 module Swiming
   def swim
-    puts 'SWIM!!!'
+    puts 'SWIM!'
   end
 end
 
@@ -53,5 +53,5 @@ class Person < Mamal
 
 end
 
-Person.new('John', 'Smith').swim
+Person.new('Jane', 'Smith').swim
 Mamal.new(4).swim

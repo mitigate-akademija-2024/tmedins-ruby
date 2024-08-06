@@ -41,11 +41,11 @@ class Square < Rectangle
   end
 
   def print_area
-    puts 'SquARE PRINT AREA'
+    puts 'Square print area'
   end
 end
 
 Shape.new.print_area
 Rectangle.new(10, 5).print_area
 Circle.new(2).print_area
-Square.new(4).print_area
+Square.new(10).print_area
